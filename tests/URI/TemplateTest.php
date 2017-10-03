@@ -34,10 +34,6 @@
  * @license http://www.opensource.org/licenses/bsd-license.php BSD
  */
 
-require_once "PHPUnit/Autoload.php";
-
-require_once "URI/Template.php";
-
 /**
  * Test class for URI_Template.
  *

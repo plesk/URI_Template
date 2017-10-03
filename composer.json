@@ -1,4 +1,5 @@
 {
+    "name": "plesk/uri_template",
     "authors": [
         {
             "email": "mj@php.net",
@@ -16,7 +17,6 @@
         "./"
     ],
     "license": "BSD License",
-    "name": "pear/uri_template",
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=URI_Template",
         "source": "https://github.com/pear/URI_Template"
@@ -26,6 +26,9 @@
         "pear/pear_exception": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "^5.7"
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }

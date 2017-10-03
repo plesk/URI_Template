@@ -27,10 +27,8 @@ Bug #18059 	duplicate files in package
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <file baseinstalldir="/" md5sum="7b2659d3cc3a1c524ef9c185b210e4d3" name="tests/AllTests.php" role="test" />
-   <file baseinstalldir="/" md5sum="d439a3161ccccabc860406ab9cf05e50" name="tests/URI/Template/TemplateTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="d439a3161ccccabc860406ab9cf05e50" name="tests/URI/TemplateTest.php" role="test" />
    <file baseinstalldir="/" md5sum="5a161134bb1ebbe4ff5caef0b1394778" name="URI/Template.php" role="php" />
-   <file baseinstalldir="/" md5sum="0812622d1a72f9f506fe85e6127cff53" name="runtests.sh" role="data" />
   </dir>
  </contents>
  <dependencies>
